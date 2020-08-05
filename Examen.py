@@ -5,7 +5,7 @@ def run():
     2) Historia 
     3) Ingles 
     4) Anime :3""")
-    #opcion tomada por el usuario, recuerda que la varible esta tomada como un string por esto mismo la comparacion tiene comillas
+    #opcion tomada por el usuario, recuerda que la varible esta tomada como un string por esto mismo la comparacion tiene comillas6
     Opcion = input("Qué opción deseas: ")
     if Opcion == "1":
         Video_games()
