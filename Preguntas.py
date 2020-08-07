@@ -11,11 +11,8 @@ def Video_games(Nombre):
     4)Kratos""")
     Respuesta = input()
     pregunta = "2"
-    if pregunta == Respuesta:
-        print("Correcto")
-        Respuestas += 1
-    else:
-        print("incorrecto")
+    Respuestas = Probador_de_respuestas(Respuesta,pregunta,Respuestas)
+    
 
 
     #pregunta 2
@@ -24,11 +21,8 @@ def Video_games(Nombre):
     2)No""")
     Respuesta = input()
     pregunta = "2"
-    if pregunta == Respuesta:
-        print("Correcto")
-        Respuestas += 1
-    else:
-        print("incorrecto")
+    Respuestas = Probador_de_respuestas(Respuesta,pregunta,Respuestas)
+   
 
 
     #pregunta 3
@@ -39,11 +33,9 @@ def Video_games(Nombre):
     4)God of war ascension""")
     Respuesta = input()
     pregunta = "3"
-    if pregunta == Respuesta:
-        print("Correcto")
-        Respuestas += 1
-    else:
-        print("incorrecto")
+    Respuestas = Probador_de_respuestas(Respuesta,pregunta,Respuestas)
+   
+
     
 
     #preguntas 4
@@ -54,12 +46,8 @@ def Video_games(Nombre):
     4)Fortnite""")
     Respuesta = input()
     pregunta = "4"
-    if pregunta == Respuesta:
-        print("Correcto")
-        Respuestas += 1
-    else:
-        print("incorrecto")
-    
+    Respuestas = Probador_de_respuestas(Respuesta,pregunta,Respuestas)
+   
 
      #preguntas 5
     prgunta = print("""En que año salio a la venta el atari 2600?
@@ -69,12 +57,21 @@ def Video_games(Nombre):
     4)1976""")
     Respuesta = input()
     pregunta = "3"
+    Respuestas = Probador_de_respuestas(Respuesta,pregunta,Respuestas)
+    return Respuestas
+
+    
+# aqui se reciben las respuestas otorgadas por el usuario y de devuelve un "+1" si la respuesta es correcta
+def Probador_de_respuestas(Respuesta,pregunta,Respuestas):
+    calificacion = Respuestas
     if pregunta == Respuesta:
         print("Correcto")
-        Respuestas += 1
+        calificacion += 1
+        return calificacion
     else:
+        calificacion = calificacion
         print("incorrecto")
-    return Respuestas
+        return calificacion
 
     
     
