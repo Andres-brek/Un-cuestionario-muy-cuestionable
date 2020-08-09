@@ -76,47 +76,46 @@ def Historia(Nombre):
     
 
     #pregunta 2
-    prgunta = print("""la primer
-    1)Sí
-    2)No""")
+    prgunta = print("""quien recorrio los alpes para llegar a roma?
+    1)Anibal
+    2)simon bolivar
+    3)aleddin pasha""")
     Respuesta = input()
-    pregunta = "2"
+    pregunta = "1"
     Respuestas = Probador_de_respuestas(Respuesta,pregunta,Respuestas)
    
 
     #pregunta 3
-    prgunta = print("""En qué juego Kratos asesina a Zeus?
-    1)God of war 1
-    2)God of war 2
-    3)God of war 3
-    4)God of war ascension""")
+    prgunta = print("""quien fue espartaco?
+    1)Fue un esclavo y protagonizo una rebelion 
+    2)Fue un lider del imperio romano
+    3)Fue comandante del ejercito romano
+    4)Fue un filoso""")
     Respuesta = input()
-    pregunta = "3"
+    pregunta = "1"
     Respuestas = Probador_de_respuestas(Respuesta,pregunta,Respuestas)
    
 
     #preguntas 4
-    prgunta = print("""Cual fue el juego mas famoso en el genero Battle royal?
-    1)Free fire
-    2)Call of duty war zone
-    3)Apex legends
-    4)Fortnite""")
+    prgunta = print("""que pais fue el ultimo en rendirse, en la segunda guerra mundial?
+    1)Japon
+    2)Estados Unidos
+    3)Alemania
+    4)Rusia""")
     Respuesta = input()
-    pregunta = "4"
+    pregunta = "1"
+    Respuestas = Probador_de_respuestas(Respuesta,pregunta,Respuestas)
+    
+    
+    #preguntas 5
+    prgunta = print("""Cuando fue creada la Organizacion de naciones unidas?
+    1)En la primera guerra mundial
+    2)En la segunda guerra mundial
+    3)En la guerra fria""")
+    Respuesta = input()
+    pregunta = "2"
     Respuestas = Probador_de_respuestas(Respuesta,pregunta,Respuestas)
    
-
-     #preguntas 5
-    prgunta = print("""En que año salio a la venta el atari 2600?
-    1)1980
-    2)1960
-    3)1977
-    4)1976""")
-    Respuesta = input()
-    pregunta = "3"
-    Respuestas = Probador_de_respuestas(Respuesta,pregunta,Respuestas)
-    return Respuestas
-
     
 # aqui se reciben las respuestas otorgadas por el usuario y de devuelve un "+1" si la respuesta es correcta, por el contrario se devuelve el mismo valor 
 def Probador_de_respuestas(Respuesta,pregunta,Respuestas):

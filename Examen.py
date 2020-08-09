@@ -16,7 +16,11 @@ def run():
         else:
             print("vales monda")
     elif Opcion == "2":
-        Preguntas.Historia()
+        Respuestas = Preguntas.Historia(Nombre)
+        if Respuestas >= 3:
+            print("Pasaste putita")
+        else:
+            print("vales monda")
     elif Opcion == "3":
         Preguntas.ingles()
     elif Opcion == "4":
