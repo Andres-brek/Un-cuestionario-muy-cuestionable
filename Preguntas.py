@@ -118,7 +118,7 @@ def Historia(Nombre):
    
 
 def Anime(Nombre):
-    print("Escogiste el examen de historia ")
+    print("Escogiste el examen de anime ")
     print("ok",Nombre,"vamos con la primera pregunta")
     Respuestas = 0
 
@@ -175,7 +175,7 @@ def Anime(Nombre):
     Respuesta = input()
     pregunta = "1"
     Respuestas = Probador_de_respuestas(Respuesta,pregunta,Respuestas)
-   
+    return Respuestas
 
 
 
