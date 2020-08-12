@@ -5,8 +5,7 @@ def run():
     print("""Hola""",Nombre, """este es un examen hecho en python, primero elige un tema para el examen:
     1) Video juegos
     2) Historia 
-    3) Ingles 
-    4) Anime :3""")
+    3) Anime :3""")
     #opcion tomada por el usuario, recuerda que la varible esta tomada como un string por esto mismo la comparacion tiene comillas
     Opcion = input("Qué opción deseas: ")
     if Opcion == "1":
@@ -22,9 +21,11 @@ def run():
         else:
             print("vales monda")
     elif Opcion == "3":
-        Preguntas.ingles()
-    elif Opcion == "4":
-        Preguntas.anime()
+        Respuestas = Preguntas.Anime(Nombre)
+        if Respuestas >= 3:
+            print("pasaste putita")
+        else:
+            print("no pasaste")
     else:
         print("""Escogiste una opcion incorrecta quieres intentarlo de nuevo
         1)si

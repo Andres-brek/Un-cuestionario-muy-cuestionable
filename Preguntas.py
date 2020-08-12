@@ -116,7 +116,70 @@ def Historia(Nombre):
     pregunta = "2"
     Respuestas = Probador_de_respuestas(Respuesta,pregunta,Respuestas)
    
+
+def Anime(Nombre):
+    print("Escogiste el examen de historia ")
+    print("ok",Nombre,"vamos con la primera pregunta")
+    Respuestas = 0
+
+
+    #pregunta 1
+    prgunta = print("""como se llama el protagonista de evangelion?
+    1)mami
+    2)sasuke
+    3)shinji
+    4)rei""")
+    Respuesta = input()
+    pregunta = "3"
+    Respuestas = Probador_de_respuestas(Respuesta,pregunta,Respuestas)
     
+
+    #pregunta 2
+    prgunta = print("""quien es el cantante del primer opening de SAO
+    1)Lisa
+    2)Flow
+    3)Sambomaster""")
+    Respuesta = input()
+    pregunta = "1"
+    Respuestas = Probador_de_respuestas(Respuesta,pregunta,Respuestas)
+   
+
+    #pregunta 3
+    prgunta = print("""cuando se estreno el primer tomo de naruto?
+    1)24 de agosto de 1998 
+    2)21 de septiembre de 1999
+    3)10 de noviembre de 1998
+    4)9  de enero de 2000""")
+    Respuesta = input()
+    pregunta = "2"
+    Respuestas = Probador_de_respuestas(Respuesta,pregunta,Respuestas)
+   
+
+    #preguntas 4
+    prgunta = print("""A que anime pertenece el opening "Daddy Daddy do!"?
+    1)Bakemonogatari
+    2)Darling in the franxx
+    3)Kaguya sama: love is war
+    4)Rent a girlfriend""")
+    Respuesta = input()
+    pregunta = "3"
+    Respuestas = Probador_de_respuestas(Respuesta,pregunta,Respuestas)
+    
+    
+    #preguntas 5
+    prgunta = print("""A que anime pertenece el opening "Ren´ai circulation"?
+    1)Bakemonogatari
+    2)Darling in the franxx
+    3)Kaguya sama: love is war
+    4)Rent a girlfriend""")
+    Respuesta = input()
+    pregunta = "1"
+    Respuestas = Probador_de_respuestas(Respuesta,pregunta,Respuestas)
+   
+
+
+
+
 # aqui se reciben las respuestas otorgadas por el usuario y de devuelve un "+1" si la respuesta es correcta, por el contrario se devuelve el mismo valor 
 def Probador_de_respuestas(Respuesta,pregunta,Respuestas):
     calificacion = Respuestas
