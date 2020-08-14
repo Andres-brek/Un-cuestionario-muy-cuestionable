@@ -16,23 +16,23 @@ def run(Nombre):
     if Opcion == "1":
         Respuestas = Preguntas.Video_games(Nombre)
         if Respuestas >= 3:
-            print("Pasaste putita")
+            print("Pasaste el examen, felicitaciones")
         else:
-            print("vales monda")
+            print("No pasaste el examen, lo siento")
         Repeticion(Nombre)
     elif Opcion == "2":
         Respuestas = Preguntas.Historia(Nombre)
         if Respuestas >= 3:
-            print("Pasaste putita")
+            print("Pasaste el examen, felicitaciones")
         else:
-            print("vales monda")
+           print("No pasaste el examen, lo siento")
         Repeticion(Nombre)
     elif Opcion == "3":
         Respuestas = Preguntas.Anime(Nombre)
         if Respuestas >= 3:
-            print("pasaste putita")
+            print("Pasaste el examen, felicitaciones")
         else:
-            print("no pasaste")
+            print("No pasaste el examen, lo siento")
         Repeticion(Nombre)   
     else:
         print("""Escogiste una opcion incorrecta""")

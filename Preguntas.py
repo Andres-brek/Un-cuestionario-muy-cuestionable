@@ -115,6 +115,7 @@ def Historia(Nombre):
     Respuesta = input()
     pregunta = "2"
     Respuestas = Probador_de_respuestas(Respuesta,pregunta,Respuestas)
+    return Respuestas
    
 
 def Anime(Nombre):
