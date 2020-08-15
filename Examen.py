@@ -40,7 +40,7 @@ def run(Nombre):
 
 
 def Repeticion(Nombre):
-    print("""Quieres intentarlo de nuevo?
+    print("""¿Quieres intentarlo de nuevo?
     1)si
     2)no""")
     repetir = input("Qué opción deseas: ")
